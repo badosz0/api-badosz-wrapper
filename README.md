@@ -24,7 +24,7 @@ test()
 returns
 
 ```json
-{ advice: 'Never run a marathon in Crocs.' }
+{ "advice": "Never run a marathon in Crocs." }
 ```
 
 If endpoint requires parameters you can pass them in function:
