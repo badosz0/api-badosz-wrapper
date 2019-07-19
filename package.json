@@ -1,0 +1,22 @@
+{
+  "name": "api-badosz-wrapper",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/badosz0/api-badosz-wrapper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/badosz0/api-badosz-wrapper/issues"
+  },
+  "homepage": "https://github.com/badosz0/api-badosz-wrapper#readme",
+  "dependencies": {
+    "snekfetch": "^4.0.4"
+  }
+}
