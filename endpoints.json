@@ -1,5 +1,7 @@
 {
   "sfw": {
-    "bird" : "/bird"
+    "advice": "/advice",
+    "bird" : "/bird",
+    "cmm": "/changemymind"
   }
 }

@@ -1,22 +1,23 @@
 const {get} = require('snekfetch')
-const endpoints = require('/endpoints.json')
+const endpoints = require('./endpoints.json')
 
 class ApiClient {
   constructor(token) {
+    const self = this
     this.token = token
     this.endpoints = {}
     this.baseURL = 'https://api.badosz.com'
     Object.keys(endpoints.sfw).forEach(async endpoint => {
-      self.endpoints[endpoint] = async function(params = {}) {
-        get(`${this.baseURL}${endpoints.sfw[endpoint]}`)
+      this.endpoints[endpoint] = async function(params = {}) {
+        const response = await get(`${self.baseURL}${endpoints.sfw[endpoint]}`)
         .set({
-              Authorization: Mike.tokens.badosz
+              Authorization: self.token
              })
         .query(params)
-        .then(async response => {
-          return response.body
-        })
+        return response.body
       }
     })
   }
 }
+
+module.exports = ApiClient
