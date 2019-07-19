@@ -1,7 +1,34 @@
 {
   "sfw": {
     "advice": "/advice",
-    "bird" : "/bird",
-    "cmm": "/changemymind"
+    "bird": "/bird",
+    "blurple": "/blurple",
+    "cat": "/cat",
+    "catgirl": "/catgirl",
+    "cmm": "/changemymind",
+    "chucknorris": "/chucknorris",
+    "cuddle": "/cuddle",
+    "dadjoke": "/dadjoke",
+    "dog": "/dog",
+    "endpoints": "/endpoints",
+    "excuseme": "/excuseme",
+    "fact": "/fact",
+    "feed": "/feed",
+    "fox": "/fox",
+    "hug": "/hug",
+    "invert": "/inver",
+    "kiss": "/kiss",
+    "note": "/orangly",
+    "pat": "/pat",
+    "poke": "/poke",
+    "shibe": "/shibe",
+    "tickle": "/tickle",
+    "triggered": "/triggered",
+    "trump": "/trump",
+    "tweet": "/tweet",
+    "wanted": "/wanted",
+    "wasted": "/wasted",
+    "why": "/why",
+    "yomomma": "/yomomma"
   }
 }
