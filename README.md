@@ -1,14 +1,14 @@
 # Api Badosz Wrapper
+[![Server](https://img.shields.io/discord/340947847728070666.svg?logo=discord&colorB=7289DA)](https://discord.gg/ZwPfRfp)
+[![Top Language](https://img.shields.io/github/languages/top/badosz0/api-badosz-wrapper)](https://github.com/badosz0/api-badosz-wrapper)
+[![Github Contributors](https://img.shields.io/github/contributors/badosz0/api-badosz-wrapper.svg)](https://github.com/badosz0/api-badosz-wrapper/contributors)
+[![Github Issues](https://img.shields.io/github/issues/badosz0/api-badosz-wrapper.svg)](https://github.com/badosz0/api-badosz-wrapper/issues)
+[![Github Forks](https://img.shields.io/github/forks/badosz0/api-badosz-wrapper.svg)](https://github.com/badosz0/api-badosz-wrapper/network)
+[![Github Stars](https://img.shields.io/github/stars/badosz0/api-badosz-wrapper.svg)](https://github.com/badosz0/api-badosz-wrapper/stargazers))
 
 Official Wrapper for api.badosz.com
 
-[![Server](https://img.shields.io/discord/340947847728070666.svg?logo=discord&colorB=7289DA)](https://discord.gg/ZwPfRfp)
-[![Github contributors](https://img.shields.io/github/contributors/badosz0/api-badosz-wrapper.svg)](https://github.com/badosz0/api-badosz-wrapper/contributors)
-[![GitHub issues](https://img.shields.io/github/issues/badosz0/api-badosz-wrapper.svg)](https://github.com/badosz0/api-badosz-wrapper/issues)
-[![GitHub forks](https://img.shields.io/github/forks/badosz0/api-badosz-wrapper.svg)](https://github.com/badosz0/api-badosz-wrapper/network)
-[![GitHub stars](https://img.shields.io/github/stars/badosz0/api-badosz-wrapper.svg)](https://github.com/badosz0/api-badosz-wrapper/stargazers)
-
-### Example
+## Example
 
 ```js
 const client = require('./index.js')
